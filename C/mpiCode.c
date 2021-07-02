@@ -14,7 +14,7 @@
 #define MAX_NR_TRIPS 509
 #define MAX_NR_ROUTES 495
 #define MAX_NR_STATIONS 500
-#define MAX_NR_CALCS 2*MAX_NR_ROUTE
+#define MAX_NR_CALCS 2*MAX_NR_ROUTES
 
 struct journey {
     bool done;
