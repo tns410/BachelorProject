@@ -1,4 +1,4 @@
-The files full_info.txt, stop_times.txt and walk_times could not be uploaded due to their size
+The files full_info.txt, stop_times.txt and walk_times are missing the Python -> Data Sanitization folder due to their size
 
 Python -> Data Sanitization: Python files to sanitize the data <br/>
 <br/>
