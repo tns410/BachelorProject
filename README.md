@@ -34,4 +34,25 @@ Python -> Stats -> stats.py: used to calculate all of the statistics and to crea
 <br/>
 Python -> converter.py: Used to convert PTNs from the reduced network to the complete network <br/>
 <br/>
-C: Algorithm files executed on the DAS-5
+C: Algorithm files executed on the DAS-5 <br/>
+<br/>
+C -> alternativeApproach.c: used to calculate the statistics for alternativeApproach.txt <br/>
+<br/>
+C -> dijkstra.c: shows the custom dijkstra algorithm implementation used in the objective function for pthreads <br/>
+<br/>
+C -> mpiCode.c: hill-climbing algorithm with OpenMPI used in the method <br/>
+<br/>
+C -> mpiReduced.c: optimized hill-climbing algorithm with OpenMPI used in the method <br/>
+<br/>
+C -> mpiGenAlgo.c: genetic algorithm with OpenMPI used in the method <br/>
+<br/>
+C -> mpiComplete.c: used to calculate the objective function of PTNs in the complete network <br/>
+<br/>
+C -> pThreadGenAlgo.c: genetic algorithm implementation using pthread instead of openmpi <br/>
+<br/>
+C -> scaleDownTimeFrame.c: used to calculate the statistics for singleHour.txt, doubleHour.txt, tripleHour.txt, fullDay.txt <br/>
+<br/>
+C -> routes.txt, stations.txt: used in all the algorithms to import the data information <br/>
+<br/>
+C -> warshallTest: simple Floyd-Warshall all-pairs shortest paths implementation <br/>
+<br/>
