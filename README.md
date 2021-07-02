@@ -1,5 +1,5 @@
-The files full_info.txt, stop_times.txt and walk_times are missing in the Python -> Data Sanitization folder due to the maximum file size limit
-
+The files full_info.txt, stop_times.txt and walk_times are missing in the Python -> Data Sanitization folder due to the maximum file size limit <br/>
+<br/>
 Python -> Data Sanitization: Python files to sanitize the data <br/>
 <br/>
 Python -> Data Sanitization -> calendar.txt, stops.txt, trips.txt: Part of the data.public.lu data set <br/>
