@@ -1,0 +1,480 @@
+Proc 71 calculated 6783.902344
+Proc 71 took 84595650000 micro seconds
+Proc 17 calculated 6772.894531
+Proc 17 took 84596170000 micro seconds
+Proc 21 calculated 6772.962402
+Proc 21 took 84611120000 micro seconds
+Proc 27 calculated 6762.193359
+Proc 27 took 84618920000 micro seconds
+Proc 43 calculated 6759.569336
+Proc 43 took 84633750000 micro seconds
+Proc 31 calculated 6753.747070
+Proc 31 took 84630330000 micro seconds
+Proc 29 calculated 6761.815430
+Proc 29 took 84638910000 micro seconds
+Proc 37 calculated 6754.248535
+Proc 37 took 84647780000 micro seconds
+Proc 19 calculated 6771.115723
+Proc 19 took 84655300000 micro seconds
+Proc 25 calculated 6763.296387
+Proc 25 took 84657600000 micro seconds
+Proc 13 calculated 6769.075684
+Proc 13 took 84667330000 micro seconds
+Proc 3 calculated 6766.040527
+Proc 3 took 84673050000 micro seconds
+Proc 11 calculated 6763.110840
+Proc 11 took 84680190000 micro seconds
+Proc 23 calculated 6763.667969
+Proc 23 took 84674000000 micro seconds
+Proc 47 calculated 6771.891113
+Proc 47 took 84684280000 micro seconds
+Proc 33 calculated 6753.041016
+Proc 33 took 84703640000 micro seconds
+Proc 45 calculated 6775.126465
+Proc 45 took 84712430000 micro seconds
+Proc 39 calculated 6753.965332
+Proc 39 took 84712760000 micro seconds
+Proc 59 calculated 6781.684570
+Proc 59 took 84716160000 micro seconds
+Proc 75 calculated 6782.165039
+Proc 75 took 84715860000 micro seconds
+Proc 15 calculated 6768.254395
+Proc 15 took 84719140000 micro seconds
+Proc 41 calculated 6781.374023
+Proc 41 took 84722860000 micro seconds
+Proc 35 calculated 6754.163086
+Proc 35 took 84726360000 micro seconds
+Proc 7 calculated 6762.168945
+Proc 7 took 84729700000 micro seconds
+Proc 67 calculated 6777.598633
+Proc 67 took 84728000000 micro seconds
+Proc 69 calculated 6781.832520
+Proc 69 took 84728860000 micro seconds
+Proc 65 calculated 6780.785156
+Proc 65 took 84737240000 micro seconds
+Proc 9 calculated 6763.947754
+Proc 9 took 84740400000 micro seconds
+Proc 79 calculated 6772.938477
+Proc 79 took 84758870000 micro seconds
+Proc 1 calculated 6765.628418
+Proc 1 took 84769990000 micro seconds
+Proc 61 calculated 6781.529297
+Proc 61 took 84777250000 micro seconds
+Proc 73 calculated 6786.123535
+Proc 73 took 84775410000 micro seconds
+Proc 5 calculated 6763.234375
+Proc 5 took 84786040000 micro seconds
+Proc 57 calculated 6781.437500
+Proc 57 took 84789640000 micro seconds
+Proc 49 calculated 6772.655273
+Proc 49 took 84794750000 micro seconds
+Proc 53 calculated 6774.769043
+Proc 53 took 84800460000 micro seconds
+Proc 77 calculated 6782.734375
+Proc 77 took 84799130000 micro seconds
+Proc 55 calculated 6777.382812
+Proc 55 took 84806580000 micro seconds
+Proc 46 calculated 6775.276855
+Proc 46 took 84826220000 micro seconds
+Proc 51 calculated 6774.216797
+Proc 51 took 84833070000 micro seconds
+Proc 63 calculated 6780.672852
+Proc 63 took 84833560000 micro seconds
+Proc 18 calculated 6770.856934
+Proc 18 took 84834050000 micro seconds
+Proc 40 calculated 6780.891113
+Proc 40 took 84871780000 micro seconds
+Proc 78 calculated 6772.817383
+Proc 78 took 84870630000 micro seconds
+Proc 14 calculated 6769.131836
+Proc 14 took 84889410000 micro seconds
+Proc 66 calculated 6782.006836
+Proc 66 took 84890160000 micro seconds
+Proc 20 calculated 6771.135254
+Proc 20 took 84892440000 micro seconds
+Proc 44 calculated 6760.559570
+Proc 44 took 84905360000 micro seconds
+Proc 36 calculated 6754.175781
+Proc 36 took 84911040000 micro seconds
+Proc 32 calculated 6753.039062
+Proc 32 took 84915660000 micro seconds
+Proc 64 calculated 6782.027832
+Proc 64 took 84919500000 micro seconds
+Proc 42 calculated 6757.452637
+Proc 42 took 84940810000 micro seconds
+Proc 38 calculated 6754.393066
+Proc 38 took 84941720000 micro seconds
+Proc 28 calculated 6762.080078
+Proc 28 took 84944180000 micro seconds
+Proc 30 calculated 6762.689941
+Proc 30 took 84951980000 micro seconds
+Proc 8 calculated 6762.223145
+Proc 8 took 84966670000 micro seconds
+Proc 70 calculated 6782.748047
+Proc 70 took 84965060000 micro seconds
+Proc 68 calculated 6781.517090
+Proc 68 took 84970800000 micro seconds
+Proc 16 calculated 6772.841797
+Proc 16 took 84970540000 micro seconds
+Proc 34 calculated 6753.131348
+Proc 34 took 84976640000 micro seconds
+Proc 24 calculated 6763.610840
+Proc 24 took 84974630000 micro seconds
+Proc 22 calculated 6772.352051
+Proc 22 took 84978490000 micro seconds
+Proc 12 calculated 6763.922363
+Proc 12 took 85006770000 micro seconds
+Proc 26 calculated 6763.442871
+Proc 26 took 85005300000 micro seconds
+Proc 2 calculated 6766.028809
+Proc 2 took 85018580000 micro seconds
+Proc 74 calculated 6783.510742
+Proc 74 took 85021290000 micro seconds
+Proc 10 calculated 6763.908691
+Proc 10 took 85025940000 micro seconds
+Proc 4 calculated 6765.986328
+Proc 4 took 85031700000 micro seconds
+Proc 72 calculated 6784.725586
+Proc 72 took 85033350000 micro seconds
+Proc 76 calculated 6782.555664
+Proc 76 took 85044410000 micro seconds
+Proc 0 calculated 6765.348633
+Proc 0 took 85047460000 micro seconds
+Proc 6 calculated 6763.224609
+Proc 6 took 85052760000 micro seconds
+Proc 60 calculated 6781.060547
+Proc 60 took 85102350000 micro seconds
+Proc 52 calculated 6774.834473
+Proc 52 took 85107850000 micro seconds
+Proc 48 calculated 6771.917480
+Proc 48 took 85130830000 micro seconds
+Proc 56 calculated 6779.155762
+Proc 56 took 85136070000 micro seconds
+Proc 58 calculated 6782.352539
+Proc 58 took 85177090000 micro seconds
+Proc 62 calculated 6780.499512
+Proc 62 took 85181090000 micro seconds
+Proc 54 calculated 6775.753418
+Proc 54 took 85200010000 micro seconds
+Proc 50 calculated 6772.288086
+Proc 50 took 85286570000 micro seconds
+Proc 147 calculated 6864.218750
+Proc 147 took 83904240000 micro seconds
+Proc 153 calculated 6867.541992
+Proc 153 took 83909720000 micro seconds
+Proc 159 calculated 6871.934082
+Proc 159 took 83924150000 micro seconds
+Proc 137 calculated 6841.039551
+Proc 137 took 83915590000 micro seconds
+Proc 131 calculated 6832.451172
+Proc 131 took 83920000000 micro seconds
+Proc 113 calculated 6817.583008
+Proc 113 took 83935800000 micro seconds
+Proc 139 calculated 6850.955078
+Proc 139 took 83933920000 micro seconds
+Proc 143 calculated 6858.597168
+Proc 143 took 83937720000 micro seconds
+Proc 157 calculated 6870.067871
+Proc 157 took 83950820000 micro seconds
+Proc 149 calculated 6869.073242
+Proc 149 took 83952090000 micro seconds
+Proc 155 calculated 6871.798828
+Proc 155 took 83972880000 micro seconds
+Proc 133 calculated 6835.677734
+Proc 133 took 83965090000 micro seconds
+Proc 151 calculated 6862.264648
+Proc 151 took 83974660000 micro seconds
+Proc 141 calculated 6851.092285
+Proc 141 took 83966510000 micro seconds
+Proc 119 calculated 6823.968750
+Proc 119 took 83983160000 micro seconds
+Proc 129 calculated 6830.017578
+Proc 129 took 83977900000 micro seconds
+Proc 135 calculated 6838.187500
+Proc 135 took 83978550000 micro seconds
+Proc 145 calculated 6861.530273
+Proc 145 took 83995730000 micro seconds
+Proc 127 calculated 6829.665527
+Proc 127 took 84004880000 micro seconds
+Proc 115 calculated 6823.224121
+Proc 115 took 84008380000 micro seconds
+Proc 123 calculated 6826.391113
+Proc 123 took 84013140000 micro seconds
+Proc 125 calculated 6829.895508
+Proc 125 took 84015200000 micro seconds
+Proc 111 calculated 6815.998535
+Proc 111 took 84013550000 micro seconds
+Proc 99 calculated 6804.460938
+Proc 99 took 84023420000 micro seconds
+Proc 101 calculated 6805.635742
+Proc 101 took 84024870000 micro seconds
+Proc 121 calculated 6816.508789
+Proc 121 took 84027170000 micro seconds
+Proc 93 calculated 6796.004883
+Proc 93 took 84027610000 micro seconds
+Proc 95 calculated 6797.105957
+Proc 95 took 84031430000 micro seconds
+Proc 117 calculated 6824.757324
+Proc 117 took 84042680000 micro seconds
+Proc 91 calculated 6789.622070
+Proc 91 took 84040880000 micro seconds
+Proc 105 calculated 6810.680176
+Proc 105 took 84061440000 micro seconds
+Proc 107 calculated 6815.902344
+Proc 107 took 84063410000 micro seconds
+Proc 103 calculated 6809.385254
+Proc 103 took 84065020000 micro seconds
+Proc 152 calculated 6867.178711
+Proc 152 took 84075550000 micro seconds
+Proc 97 calculated 6803.882812
+Proc 97 took 84071950000 micro seconds
+Proc 109 calculated 6814.238770
+Proc 109 took 84073450000 micro seconds
+Proc 140 calculated 6851.003418
+Proc 140 took 84079450000 micro seconds
+Proc 156 calculated 6872.176758
+Proc 156 took 84107900000 micro seconds
+Proc 128 calculated 6828.886719
+Proc 128 took 84105390000 micro seconds
+Proc 148 calculated 6864.651367
+Proc 148 took 84116520000 micro seconds
+Proc 134 calculated 6835.924805
+Proc 134 took 84117690000 micro seconds
+Proc 142 calculated 6848.810059
+Proc 142 took 84118190000 micro seconds
+Proc 130 calculated 6830.429199
+Proc 130 took 84120800000 micro seconds
+Proc 136 calculated 6839.680664
+Proc 136 took 84132730000 micro seconds
+Proc 158 calculated 6870.927734
+Proc 158 took 84152290000 micro seconds
+Proc 138 calculated 6841.353027
+Proc 138 took 84149700000 micro seconds
+Proc 132 calculated 6831.395996
+Proc 132 took 84156470000 micro seconds
+Proc 150 calculated 6863.013672
+Proc 150 took 84173680000 micro seconds
+Proc 144 calculated 6862.709961
+Proc 144 took 84174660000 micro seconds
+Proc 154 calculated 6869.820801
+Proc 154 took 84177040000 micro seconds
+Proc 89 calculated 6784.290039
+Proc 89 took 84175690000 micro seconds
+Proc 87 calculated 6784.462891
+Proc 87 took 84184990000 micro seconds
+Proc 146 calculated 6863.106934
+Proc 146 took 84189760000 micro seconds
+Proc 85 calculated 6784.769043
+Proc 85 took 84192940000 micro seconds
+Proc 81 calculated 6777.696777
+Proc 81 took 84199650000 micro seconds
+Proc 94 calculated 6796.458984
+Proc 94 took 84213390000 micro seconds
+Proc 83 calculated 6781.335938
+Proc 83 took 84224100000 micro seconds
+Proc 90 calculated 6784.431152
+Proc 90 took 84251970000 micro seconds
+Proc 84 calculated 6788.376465
+Proc 84 took 84288120000 micro seconds
+Proc 92 calculated 6796.156738
+Proc 92 took 84290190000 micro seconds
+Proc 82 calculated 6779.472168
+Proc 82 took 84305550000 micro seconds
+Proc 86 calculated 6784.979004
+Proc 86 took 84373590000 micro seconds
+Proc 80 calculated 6775.542480
+Proc 80 took 84403270000 micro seconds
+Proc 88 calculated 6785.102051
+Proc 88 took 84405390000 micro seconds
+Proc 114 calculated 6820.663086
+Proc 114 took 84462500000 micro seconds
+Proc 118 calculated 6825.015137
+Proc 118 took 84507390000 micro seconds
+Proc 116 calculated 6825.116211
+Proc 116 took 84508940000 micro seconds
+Proc 124 calculated 6829.126465
+Proc 124 took 84511970000 micro seconds
+Proc 126 calculated 6831.938965
+Proc 126 took 84512740000 micro seconds
+Proc 112 calculated 6815.738770
+Proc 112 took 84515170000 micro seconds
+Proc 122 calculated 6823.479004
+Proc 122 took 84521370000 micro seconds
+Proc 120 calculated 6821.064941
+Proc 120 took 84585110000 micro seconds
+Proc 108 calculated 6812.614746
+Proc 108 took 84740740000 micro seconds
+Proc 100 calculated 6805.712891
+Proc 100 took 84815520000 micro seconds
+Proc 98 calculated 6803.434082
+Proc 98 took 84851210000 micro seconds
+Proc 96 calculated 6796.180176
+Proc 96 took 84975070000 micro seconds
+Proc 102 calculated 6810.812500
+Proc 102 took 85025000000 micro seconds
+Proc 104 calculated 6810.504395
+Proc 104 took 85394480000 micro seconds
+Proc 110 calculated 6816.819824
+Proc 110 took 85682110000 micro seconds
+Proc 106 calculated 6810.585449
+Proc 106 took 85720840000 micro seconds
+Proc 199 calculated 6878.376953
+Proc 199 took 74219240000 micro seconds
+Proc 183 calculated 6880.785645
+Proc 183 took 74219350000 micro seconds
+Proc 203 calculated 6897.505371
+Proc 203 took 74225490000 micro seconds
+Proc 179 calculated 6877.757812
+Proc 179 took 74222600000 micro seconds
+Proc 187 calculated 6870.732422
+Proc 187 took 74229850000 micro seconds
+Proc 201 calculated 6894.326172
+Proc 201 took 74239820000 micro seconds
+Proc 181 calculated 6875.243164
+Proc 181 took 74238050000 micro seconds
+Proc 207 calculated 6917.269531
+Proc 207 took 74242950000 micro seconds
+Proc 185 calculated 6882.286621
+Proc 185 took 74240290000 micro seconds
+Proc 195 calculated 6886.575195
+Proc 195 took 74246310000 micro seconds
+Proc 193 calculated 6882.930176
+Proc 193 took 74244960000 micro seconds
+Proc 205 calculated 6905.509766
+Proc 205 took 74250190000 micro seconds
+Proc 177 calculated 6877.168457
+Proc 177 took 74248060000 micro seconds
+Proc 189 calculated 6880.177734
+Proc 189 took 74255830000 micro seconds
+Proc 191 calculated 6887.090820
+Proc 191 took 74258850000 micro seconds
+Proc 197 calculated 6862.668945
+Proc 197 took 74267410000 micro seconds
+Proc 231 calculated 7160.619141
+Proc 231 took 74271910000 micro seconds
+Proc 202 calculated 6896.460938
+Proc 202 took 74280410000 micro seconds
+Proc 194 calculated 6883.560547
+Proc 194 took 74281540000 micro seconds
+Proc 229 calculated 7160.619141
+Proc 229 took 74281010000 micro seconds
+Proc 180 calculated 6874.420898
+Proc 180 took 74283010000 micro seconds
+Proc 237 calculated 7160.619141
+Proc 237 took 74283570000 micro seconds
+Proc 239 calculated 7160.619141
+Proc 239 took 74283980000 micro seconds
+Proc 178 calculated 6876.233887
+Proc 178 took 74289390000 micro seconds
+Proc 233 calculated 7160.619141
+Proc 233 took 74289700000 micro seconds
+Proc 227 calculated 7160.619141
+Proc 227 took 74289550000 micro seconds
+Proc 188 calculated 6870.783691
+Proc 188 took 74299230000 micro seconds
+Proc 204 calculated 6903.525879
+Proc 204 took 74306420000 micro seconds
+Proc 235 calculated 7160.619141
+Proc 235 took 74302720000 micro seconds
+Proc 176 calculated 6877.028320
+Proc 176 took 74305160000 micro seconds
+Proc 232 calculated 7160.619141
+Proc 232 took 74315850000 micro seconds
+Proc 192 calculated 6884.761230
+Proc 192 took 74321050000 micro seconds
+Proc 186 calculated 6890.420898
+Proc 186 took 74322450000 micro seconds
+Proc 182 calculated 6873.423828
+Proc 182 took 74323260000 micro seconds
+Proc 206 calculated 6911.987305
+Proc 206 took 74329450000 micro seconds
+Proc 198 calculated 6865.156738
+Proc 198 took 74333330000 micro seconds
+Proc 184 calculated 6882.283691
+Proc 184 took 74329830000 micro seconds
+Proc 200 calculated 6889.278320
+Proc 200 took 74333810000 micro seconds
+Proc 190 calculated 6882.423340
+Proc 190 took 74335500000 micro seconds
+Proc 225 calculated 7113.383301
+Proc 225 took 74336730000 micro seconds
+Proc 228 calculated 7160.619141
+Proc 228 took 74343510000 micro seconds
+Proc 175 calculated 6878.732910
+Proc 175 took 74348070000 micro seconds
+Proc 196 calculated 6855.041992
+Proc 196 took 74351670000 micro seconds
+Proc 236 calculated 7160.619141
+Proc 236 took 74350600000 micro seconds
+Proc 234 calculated 7160.619141
+Proc 234 took 74358690000 micro seconds
+Proc 238 calculated 7160.619141
+Proc 238 took 74360020000 micro seconds
+Proc 224 calculated 7086.741699
+Proc 224 took 74363970000 micro seconds
+Proc 230 calculated 7160.619141
+Proc 230 took 74365400000 micro seconds
+Proc 173 calculated 6881.526855
+Proc 173 took 74369510000 micro seconds
+Proc 171 calculated 6878.708008
+Proc 171 took 74373990000 micro seconds
+Proc 226 calculated 7122.395996
+Proc 226 took 74381300000 micro seconds
+Proc 167 calculated 6878.943848
+Proc 167 took 74469070000 micro seconds
+Proc 174 calculated 6878.349121
+Proc 174 took 74468510000 micro seconds
+Proc 163 calculated 6877.395508
+Proc 163 took 74470190000 micro seconds
+Proc 169 calculated 6879.557617
+Proc 169 took 74471440000 micro seconds
+Proc 165 calculated 6884.201660
+Proc 165 took 74476620000 micro seconds
+Proc 172 calculated 6878.807617
+Proc 172 took 74489230000 micro seconds
+Proc 170 calculated 6884.871094
+Proc 170 took 74492700000 micro seconds
+Proc 161 calculated 6877.219727
+Proc 161 took 74499200000 micro seconds
+Proc 221 calculated 7036.215820
+Proc 221 took 74558170000 micro seconds
+Proc 219 calculated 7025.466309
+Proc 219 took 74564480000 micro seconds
+Proc 166 calculated 6889.104980
+Proc 166 took 74589540000 micro seconds
+Proc 162 calculated 6877.619629
+Proc 162 took 74590980000 micro seconds
+Proc 217 calculated 6993.228027
+Proc 217 took 74598700000 micro seconds
+Proc 164 calculated 6880.705566
+Proc 164 took 74593820000 micro seconds
+Proc 213 calculated 6969.152344
+Proc 213 took 74602270000 micro seconds
+Proc 209 calculated 6920.805176
+Proc 209 took 74612050000 micro seconds
+Proc 215 calculated 6976.913574
+Proc 215 took 74613920000 micro seconds
+Proc 168 calculated 6879.512207
+Proc 168 took 74608650000 micro seconds
+Proc 211 calculated 6958.569824
+Proc 211 took 74616640000 micro seconds
+Proc 160 calculated 6873.256348
+Proc 160 took 74628970000 micro seconds
+Proc 223 calculated 7072.144531
+Proc 223 took 74646910000 micro seconds
+Proc 216 calculated 6990.270508
+Proc 216 took 74650850000 micro seconds
+Proc 212 calculated 6958.741699
+Proc 212 took 74655430000 micro seconds
+Proc 218 calculated 6995.680176
+Proc 218 took 74661830000 micro seconds
+Proc 220 calculated 7036.372559
+Proc 220 took 74662410000 micro seconds
+Proc 214 calculated 6976.804688
+Proc 214 took 74665110000 micro seconds
+Proc 208 calculated 6923.058594
+Proc 208 took 74665480000 micro seconds
+Proc 210 calculated 6924.721680
+Proc 210 took 74678540000 micro seconds
+Proc 222 calculated 7066.978027
+Proc 222 took 74716550000 micro seconds
