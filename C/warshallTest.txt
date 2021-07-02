@@ -1,0 +1,121 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+
+#define MAX_NR_STOPS 54
+#define MAX_NR_TRIPS 513
+#define MAX_NR_ROUTES 68
+#define MAX_NR_STATIONS 1182
+#define MAX_NR_TIMESLOTS 17 * 60
+
+struct stop {
+    u_int32_t station_id;
+    u_int32_t arr_time;
+    u_int32_t dep_time;
+};
+
+struct trip {
+    u_int16_t num_stops;
+    struct stop stops[MAX_NR_STOPS];
+};
+
+struct route {
+    u_int16_t num_trips;
+    struct trip trips[MAX_NR_TRIPS];
+};
+
+struct journey {
+    u_int32_t dep_time;
+    u_int32_t tra_time;
+    u_int32_t arr_time;
+};
+
+void read_routes(struct route routes[]) {
+    FILE* stream = fopen("../stop_times_opt.txt", "r");
+    u_int16_t prev_trip_idx = -1;
+    char line[64];
+    while(fgets(line, 64, stream)) {
+        u_int16_t route_idx = atoi(strtok(line, "|"));
+        u_int16_t trip_idx = atoi(strtok(NULL, "|"));
+        struct route * route = &routes[route_idx];
+        if (trip_idx != prev_trip_idx) {
+            route->num_trips++;
+            prev_trip_idx = trip_idx;
+        }
+        struct trip * trip = &route->trips[route->num_trips-1];
+        trip->num_stops++;
+        struct stop * stop = &trip->stops[trip->num_stops-1];
+        stop->station_id = atoi(strtok(NULL, "|"));
+        stop->arr_time = atoi(strtok(NULL, "|"));
+        stop->dep_time = atoi(strtok(NULL, "\n"));
+    }
+}
+
+int offset(int from_station, int to_station, int time_slot) {
+    return time_slot * MAX_NR_STATIONS * MAX_NR_STATIONS + to_station * MAX_NR_STATIONS + from_station;
+}
+
+float calculate_network_efficiency(struct route routes[]) {
+    struct journey * memo = calloc(MAX_NR_STATIONS * MAX_NR_STATIONS * MAX_NR_TIMESLOTS, sizeof(struct journey));
+    for (int route_idx = 0; route_idx < MAX_NR_ROUTES; ++route_idx) {
+        struct route * route = &routes[route_idx];
+
+        for (int trip_idx = 0; trip_idx < route->num_trips; ++trip_idx) {
+            struct trip * trip = &route->trips[trip_idx];
+
+            for (int from_stop_idx = 0; from_stop_idx < trip->num_stops - 1; ++from_stop_idx) {
+                struct stop * from_stop = &trip->stops[from_stop_idx];
+                int timeslot = ((int)from_stop->dep_time - 6 * 60 * 60) / 60;
+
+                if (timeslot >= 0 && timeslot < MAX_NR_TIMESLOTS) {
+                    for (int to_stop_idx = from_stop_idx + 1; to_stop_idx < trip->num_stops; ++to_stop_idx) {
+                        struct stop * to_stop = &trip->stops[to_stop_idx];
+
+                        for (int time = 0; time <= timeslot; ++time) {
+                            struct journey * journey = &memo[offset(from_stop->station_id, to_stop->station_id, time)];
+                            if (journey->arr_time == 0 || to_stop->arr_time < journey->arr_time) {
+                                journey->dep_time = from_stop->dep_time;
+                                journey->arr_time = to_stop->arr_time;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    for (int dep_station_idx = 0; dep_station_idx < MAX_NR_STATIONS; ++dep_station_idx) {
+        for (int mid_station_idx = 0; mid_station_idx < MAX_NR_STATIONS; ++mid_station_idx) {
+            printf("%d\n", mid_station_idx);
+            for (int arr_station_idx = 0; arr_station_idx < MAX_NR_STATIONS; ++arr_station_idx) {
+                for (int timeslot = 0; timeslot < MAX_NR_TIMESLOTS; ++timeslot) {
+                    struct journey * first = &memo[offset(dep_station_idx, mid_station_idx, timeslot)];
+                    if (first->arr_time == 0 || first->arr_time > MAX_NR_TIMESLOTS * 60)
+                        continue;
+                    int second_dep_time = ((int)first->arr_time - 6 * 60 * 60) / 60;
+                    struct journey * second = &memo[offset(mid_station_idx, arr_station_idx, second_dep_time)];
+                    if (second->arr_time == 0 || second->arr_time > MAX_NR_TIMESLOTS * 60)
+                        continue;
+                    for (int time = 0; time <= timeslot; ++time) {
+                        struct journey * direct = &memo[offset(dep_station_idx, arr_station_idx, time)];
+                        if (direct->arr_time == 0 || direct->arr_time > second->arr_time) {
+                            direct->dep_time = first->dep_time;
+                            direct->tra_time = first->tra_time + (second->dep_time - first->arr_time) + second->tra_time;
+                            direct->arr_time = second->arr_time;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // takes 16gigs of ram and 1182 * 36 seconds = 11.82 hours
+    return 0.0f;
+}
+
+int main()
+{
+    struct route * routes = calloc(MAX_NR_ROUTES, sizeof(struct route));
+    read_routes(routes);
+    calculate_network_efficiency(routes);
+}
