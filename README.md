@@ -1,5 +1,5 @@
 The files full_info.txt, stop_times.txt and walk_times are missing in the Python -> Data Sanitization folder due to the maximum file size limit <br/>
-<br/>
+<br/><br/><br/>
 Python -> Data Sanitization: Python files to sanitize the data <br/>
 <br/>
 Python -> Data Sanitization -> calendar.txt, stops.txt, trips.txt: Part of the data.public.lu data set <br/>
@@ -15,7 +15,7 @@ Python -> Data Sanitization -> routes.txt, stations.txt: Created by sanitizer.py
 Python -> Data Sanitization -> sanitizer.py: Used to sanitize the data and create the routes.txt and stations.txt files <br/>
 <br/>
 Python -> Data Sanitization -> stitcher.py: Creates a single massive file with all the PTN information possible <br/>
-<br/>
+<br/><br/><br/>
 Python -> Stats: Python files to create the figures with matplotlib <br/>
 <br/>
 Python -> Stats -> alternativeApproach.txt: Output of the alternativeApproach.c program and used for Figure 3 <br/>
@@ -33,7 +33,7 @@ Python -> Stats -> perRouteGraph.txt, perStationGraph.txt: output from perRouteS
 Python -> Stats -> stats.py: used to calculate all of the statistics and to create all of the figures <br/>
 <br/>
 Python -> converter.py: Used to convert PTNs from the reduced network to the complete network <br/>
-<br/>
+<br/><br/><br/>
 C: Algorithm files executed on the DAS-5 <br/>
 <br/>
 C -> alternativeApproach.c: used to calculate the statistics for alternativeApproach.txt <br/>
