@@ -24,9 +24,9 @@ Python -> Stats -> singleHour.txt, doubleHour.txt, tripleHour.txt, fullDay.txt: 
 <br/>
 Python -> Stats -> hilCliComplete.txt, hilCliRedComplete.txt, genAlgoComplete.txt: PTN values for each algorithm calculated by mpiComplete.c used for Figure 8 <br/>
 <br/>
-Python -> Stats -> hilCliImprovements.txt, hilCliRedImprovements.txt, genAlgoImprovements.txt: output from mpiReduced.c used for Figure 6 <br/>
+Python -> Stats -> hilCliImprovements.txt, hilCliRedImprovements.txt, genAlgoImprovements.txt: output from all three algorithms used for Figure 6 <br/>
 <br/>
-Python -> Stats -> hilCliSchedules.txt, hilCliRedSchedules.txt, genAlgoImprovements.txt: output from mpiReduced.c used for Figure 7 <br/>
+Python -> Stats -> hilCliSchedules.txt, hilCliRedSchedules.txt, genAlgoImprovements.txt: output from all three algorithms used for Figure 7 <br/>
 <br/>
 Python -> Stats -> perRouteGraph.txt, perStationGraph.txt: output from perRouteSanitizer.py and perStationSanitizer.py used for Figure 4 <br/>
 <br/>
@@ -40,13 +40,13 @@ C -> alternativeApproach.c: used to calculate the statistics for alternativeAppr
 <br/>
 C -> dijkstra.c: shows the custom dijkstra algorithm implementation used in the objective function for pthreads <br/>
 <br/>
-C -> mpiCode.c: hill-climbing algorithm with OpenMPI used in the method <br/>
+C -> mpiHillClimbing.c: hill-climbing algorithm with OpenMPI used in the method <br/>
 <br/>
-C -> mpiReduced.c: optimized hill-climbing algorithm with OpenMPI used in the method <br/>
+C -> mpiOptimizedHillClimbing.c: optimized hill-climbing algorithm with OpenMPI used in the method <br/>
 <br/>
 C -> mpiGenAlgo.c: genetic algorithm with OpenMPI used in the method <br/>
 <br/>
-C -> mpiComplete.c: used to calculate the objective function of PTNs in the complete network <br/>
+C -> mpiCompletePTN.c: used to calculate the objective function of PTNs in the complete network <br/>
 <br/>
 C -> pThreadGenAlgo.c: genetic algorithm implementation using pthread instead of openmpi <br/>
 <br/>
